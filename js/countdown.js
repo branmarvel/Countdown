@@ -1,9 +1,9 @@
 simplyCountdown("#cuenta", {
-  year: 2022, // Requerido
+  year: 2023, // Requerido
   month: 7, // Requerido
   day: 4, // Requerido
   hours: 9, // El Default es 0 [0-23] integer
-  minutes: 04, // Default is 0 [0-59] integer
+  minutes: 21, // Default is 0 [0-59] integer
   seconds: 0, // Default is 0 [0-59] integer
   words: {
     //Palabras que se muestran en el contador
@@ -20,8 +20,6 @@ simplyCountdown("#cuenta", {
 
   onEnd: function () {
     //Poner aqui la funcion que se ejecute al terminar el contador
-    document.getElementById("portada").classList.add("oculta");
-    return;
   },
 
   refresh: 1000, // default se refresca cada segundo
