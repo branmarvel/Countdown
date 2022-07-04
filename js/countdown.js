@@ -28,7 +28,7 @@ simplyCountdown("#cuenta", {
   sectionClass: "simply-section", //section css clase para modificar el estilo
   amountClass: "simply-amount", // amount css clase para modificar el estilo
   wordClass: "simply-word", // word css clase para modificar el estilo
-  zeroPad: false,
+  zeroPad: false, // poner 0 antes de cada numero
   countUp: false, //contar hacia arriba
 });
 
